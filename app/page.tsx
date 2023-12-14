@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
+
+
 export default function Home() {
   return (
-    <p>
-      next stream
-    </p>
+    <p>only authed user can see this</p>
+
   )
 }
